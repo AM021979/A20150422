@@ -7,3 +7,19 @@
 		new C().avgFunc(x, y);
 	}
 }
+Class B{
+	public void maxFunc(int x,int y){
+		int min=0;
+		int max=0;
+		if(x>y){
+			max=x;
+			min=y;
+		}
+		else{
+			max=y;
+			min=x;
+		}
+		System.out.printf(max);
+	}
+}
+		
